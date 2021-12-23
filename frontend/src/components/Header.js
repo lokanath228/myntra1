@@ -18,8 +18,10 @@ const Header = () => {
 
   return (
     <header>
-      <Navbar bg='light' variant='light' expand='lg' collapseOnSelect>
-        <Container>
+      {/* <Navbar bg='light' variant='light' expand='lg' collapseOnSelect> */}
+      {/* <Navbar bg='light' expand={false} sticky='top'> */}
+      <Navbar bg='warning' variant='primary'>
+        <Container fluid>
           <LinkContainer to='/'>
             <Navbar.Brand>myntra</Navbar.Brand>
           </LinkContainer>
